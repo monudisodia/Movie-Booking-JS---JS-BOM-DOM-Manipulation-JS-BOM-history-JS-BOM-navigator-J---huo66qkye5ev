@@ -21,12 +21,13 @@
     justify-content: start;
 }
 
-#nav-list{
+nav ul{
+    flex: 1;
     display: flex;
-    width: 50%;
-    /* justify-content: space-evenly; */
     justify-content: space-evenly;
-    list-style: none;
+}
+nav ul li{
+    list-style-type: none;
 }
 
 main{
