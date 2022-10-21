@@ -104,6 +104,7 @@ main{
 }
 .available-seat{
     /* background-color: green; */
+    cursor: pointer;
 
 }
 .unavailable-seat{
