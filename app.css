@@ -9,7 +9,7 @@ nav{
     align-items: center;
     padding: 12px 16px;
     color: #ffffff;
-    background-color: rgb(64, 64, 180);
+    background-color: blue;
 }
 .logo{
     flex: 1;
@@ -60,7 +60,7 @@ main{
 }
 .movie-img-wrapper{
     background-size: cover;
-    width: 200px;
+    width: auto;
     height: 250px;
 }
 #booker{
@@ -97,27 +97,16 @@ main{
 .seat{
     display: grid;
     place-content: center;
-    border: 3px solid rgb(64, 64, 180);
-    border-radius: 5px;
-    color: black;
     /* background-color: pink; */
 }
 .available-seat{
-    /* background-color: green; */
-    cursor: pointer;
-
+    background-color: green;
 }
 .unavailable-seat{
-    background-color: rgb(64, 64, 180);
-    color: white;
+    background-color: red;
 }
 .select-seat{
     border:4px outset rgb(0, 0, 0);
-}
-#book-ticket-btn{
-    width: 200px;
-    height: 35px;
-    padding: .5rem;
 }
 
 .d-none{
